@@ -15,6 +15,13 @@
       "request": "launch",
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
-    }
+    },
+	{
+		"preLaunchTask": "workspace-npm-install",
+		"type": "node-terminal",
+		"request": "launch",
+		"name": "Workspace - Serve Angular on port 80",
+		"command": "ng serve --port 80"
+	}
   ]
 }
